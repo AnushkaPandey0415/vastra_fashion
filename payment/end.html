@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/72215895a8.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Payment</title>
+    <link rel="shortcut icon" type="image/png" href="../Common Files/image/vastra.png">
+    <link rel="stylesheet" href="../payment/end.css">
+    
+</head>
+
+<body>
+
+    <div id="confirm">
+        <h3>Order Confirmed<br>
+            You’ll get a DM or text soon to confirm your order. Stay tuned!</h2>
+    </div>
+
+    <a href="../Landingpage/index.html">
+        <div id="move">GO TO HOME</div>
+    </a>
+
+</body>
+
+</html>
+<script src="../payment/confetti.js"></script>
+    <script>
+         const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 1000); 
+        };
+
+        const stop = () => {
+            setTimeout(function() {
+                confetti.stop()
+            }, 10000); 
+        };
+
+        start();
+        stop();
+    </script>
